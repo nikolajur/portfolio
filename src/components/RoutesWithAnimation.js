@@ -20,9 +20,9 @@ const RoutesWithAnimation = () => {
     <AnimatePresence mode="wait">
       <Routes location={location} key={location.key}>
         <Route path="/" element={<HomePage isFirstRender={isFirstRender} />} />
-        <Route path="/projects" element={<ProjectsPage />} />
-        <Route path="/about" element={<AboutMePage />} />
-        <Route path="/contact" element={<ContactPage />} />
+        <Route path="projects" element={<ProjectsPage />} />
+        <Route path="about" element={<AboutMePage />} />
+        <Route path="contact" element={<ContactPage />} />
       </Routes>
     </AnimatePresence>
   );
