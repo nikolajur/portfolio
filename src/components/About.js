@@ -82,6 +82,7 @@ const AboutMePage = () => {
         Besides coding, I love traveling, starring at maps, listening to Latino music, cooking &
         eating spicy food, and spending time outdoors!
       </p>
+      <br />
     </motion.div>
   );
 };
