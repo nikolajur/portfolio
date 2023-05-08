@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e7dfcbbb.css",
+    "main.js": "/static/js/main.fafb6afb.js",
+    "static/media/countries-thumbnail.png": "/static/media/countries-thumbnail.dcb6b1a79c941d223586.png",
+    "static/media/postgresql.svg": "/static/media/postgresql.898d1eb264031ff634d255f095e21fa9.svg",
+    "static/media/react.svg": "/static/media/react.48efafb09e008e77029f36360547ecab.svg",
+    "static/media/nodedotjs.svg": "/static/media/nodedotjs.c4dce8ddfc39034bec751c2530bbdac0.svg",
+    "static/media/python.svg": "/static/media/python.983a861f870e39c466be82797d3761ae.svg",
+    "static/media/typescript.svg": "/static/media/typescript.738e5fbed158cab404a32dadb5ae2309.svg",
+    "static/media/javascript.svg": "/static/media/javascript.d0c7e4e7def6532c6c9cb3ecaa34b3af.svg",
+    "static/media/github.svg": "/static/media/github.64613f3a3e7eb2a13afdbee4da4f6eed.svg",
+    "static/media/git.svg": "/static/media/git.1a3f05d15be6f3d22f9b9d91e0fce443.svg",
+    "index.html": "/index.html",
+    "static/media/linkedin.svg": "/static/media/linkedin.999a10b6689e29d9e0cb3c31185a56b0.svg",
+    "static/media/code.svg": "/static/media/code.96169432057e18feebc1745d269fcffd.svg",
+    "static/media/css3.svg": "/static/media/css3.1b1ddb069157d664cc427ac2a5d64c31.svg",
+    "static/media/html5.svg": "/static/media/html5.10e9ef6845a44b9ba349ad0926442c7d.svg",
+    "static/media/email.svg": "/static/media/email.c896c61b876597c84ab3ad0e9e7b87ea.svg",
+    "static/media/circle.svg": "/static/media/circle.f2fb99a11fc51d6a11a2937bceff7650.svg",
+    "static/media/circle-full.svg": "/static/media/circle-full.e42d2223435c4f899fb4c624cd979219.svg",
+    "main.e7dfcbbb.css.map": "/static/css/main.e7dfcbbb.css.map",
+    "main.fafb6afb.js.map": "/static/js/main.fafb6afb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e7dfcbbb.css",
+    "static/js/main.fafb6afb.js"
+  ]
+}
