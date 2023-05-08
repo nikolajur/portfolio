@@ -27,7 +27,7 @@ const AboutMePage = () => {
       <h1>Who am I?</h1>
       <p className={classes.about__text}>
         I'm a self-taught <span className={classes.about__text_strong}>front-end developer</span>{" "}
-        based in Czechia with a background in&nbsp;Geographic Information Systems. I believe
+        based in Czechia with a&nbsp;background in&nbsp;Geographic Information Systems. I believe
         in&nbsp;
         <span className={classes.about__text_strong}>lifelong learning</span> - I'm passionate
         about&nbsp;
