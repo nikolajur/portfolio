@@ -37,7 +37,7 @@ body {
 .horizontal-line {
   border-width: 1px;
   border-style: solid;
-  margin: 0.5rem 0;
+  margin: 0.75rem 0;
 }
 
 .horizontal-line.blue {
