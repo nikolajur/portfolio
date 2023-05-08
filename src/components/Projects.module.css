@@ -2,8 +2,7 @@
   width: 100%;
 }
 
-.projects__item h1,
-.about h1 {
+.projects__item h1 {
   font-size: 1.25rem;
   margin-bottom: 0.75rem;
   text-transform: uppercase;
@@ -49,11 +48,13 @@
 .projects__item_description_text {
   font-size: 1rem;
   margin-bottom: 0.75rem;
+  line-height: 1.5;
 }
 
 .projects__item_description a {
   color: #f5f57a;
   margin-bottom: 0.25rem;
+  line-height: 1.5;
 }
 
 @media (min-width: 684px) {

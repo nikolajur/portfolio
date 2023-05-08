@@ -9,7 +9,7 @@ import classes from "./Contact.module.css";
 const ContactPage = () => {
   return (
     <motion.div
-      className="contact"
+      className={classes.contact}
       variants={routeVariants}
       initial="hidden"
       animate="visible"

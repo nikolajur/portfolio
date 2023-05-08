@@ -8,7 +8,7 @@ import imageCountriesGame from "../assets/countries-thumbnail.png";
 const ProjectsPage = () => {
   return (
     <motion.div
-      className="projects"
+      className={"projects"}
       variants={routeVariants}
       initial="hidden"
       animate="visible"

@@ -1,6 +1,13 @@
+.about h1 {
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
+  text-transform: uppercase;
+}
+
 .about__text {
   font-size: 1rem;
   margin-bottom: 0.75rem;
+  line-height: 1.5;
 }
 
 .about__text_strong {

@@ -18,7 +18,7 @@ import classes from "./About.module.css";
 const AboutMePage = () => {
   return (
     <motion.div
-      className="about"
+      className={classes.about}
       variants={routeVariants}
       initial="hidden"
       animate="visible"
