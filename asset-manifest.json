@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.b97a94a1.css",
-    "main.js": "/portfolio/static/js/main.97eb1b1e.js",
+    "main.css": "/portfolio/static/css/main.b0d69f2b.css",
+    "main.js": "/portfolio/static/js/main.26784a15.js",
     "static/media/countries-thumbnail.png": "/portfolio/static/media/countries-thumbnail.dcb6b1a79c941d223586.png",
     "static/media/postgresql.svg": "/portfolio/static/media/postgresql.898d1eb264031ff634d255f095e21fa9.svg",
     "static/media/react.svg": "/portfolio/static/media/react.48efafb09e008e77029f36360547ecab.svg",
@@ -19,11 +19,11 @@
     "static/media/email.svg": "/portfolio/static/media/email.c896c61b876597c84ab3ad0e9e7b87ea.svg",
     "static/media/circle.svg": "/portfolio/static/media/circle.f2fb99a11fc51d6a11a2937bceff7650.svg",
     "static/media/circle-full.svg": "/portfolio/static/media/circle-full.e42d2223435c4f899fb4c624cd979219.svg",
-    "main.b97a94a1.css.map": "/portfolio/static/css/main.b97a94a1.css.map",
-    "main.97eb1b1e.js.map": "/portfolio/static/js/main.97eb1b1e.js.map"
+    "main.b0d69f2b.css.map": "/portfolio/static/css/main.b0d69f2b.css.map",
+    "main.26784a15.js.map": "/portfolio/static/js/main.26784a15.js.map"
   },
   "entrypoints": [
-    "static/css/main.b97a94a1.css",
-    "static/js/main.97eb1b1e.js"
+    "static/css/main.b0d69f2b.css",
+    "static/js/main.26784a15.js"
   ]
 }
