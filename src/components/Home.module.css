@@ -83,6 +83,7 @@
   .homepage__link_circles {
     flex-direction: row;
     flex-grow: 1;
+    max-height: 38rem;
   }
 
   .homepage__link_circle_wrapper.middle_circle {
