@@ -24,12 +24,14 @@ body {
 .root-layout {
   display: flex;
   flex-direction: column;
+  height: 100%;
 }
 
 .main-content {
   margin: 1.25rem 1.5rem;
   color: #f0f0f0;
   flex-grow: 1;
+  height: 100%;
 }
 
 .horizontal-line {
