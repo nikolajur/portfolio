@@ -1,0 +1,16 @@
+.contact__text {
+  font-size: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.contact__icon {
+  width: 2.5rem;
+  margin-right: 1.5rem;
+}
+
+@media (min-width: 684px) {
+  .contact__icon:hover {
+    transform: rotate(360deg);
+    transition: all 0.4s ease-out;
+  }
+}

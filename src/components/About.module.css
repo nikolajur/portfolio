@@ -1,0 +1,43 @@
+.about__text {
+  font-size: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.about__text_strong {
+  color: #80ffff;
+}
+
+.about__text a {
+  color: #80ffff;
+}
+
+.about__skill {
+  height: 3rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.about__skill_icon {
+  height: 2rem;
+}
+
+.about__skill_name {
+  margin: 0 1rem;
+  font-size: 1rem;
+}
+
+.about__skill_level {
+  margin: 0.1rem;
+  width: 0.5rem;
+  height: 0.5rem;
+}
+
+@media (min-width: 684px) {
+  .about__text a:hover {
+    font-weight: 700;
+  }
+  .about__text a:visited {
+    color: #80ffff;
+  }
+}

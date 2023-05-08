@@ -1,0 +1,159 @@
+.homepage {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  position: relative;
+}
+
+.homepage__text {
+  font-size: 1.25rem;
+}
+
+.homepage h1 {
+  font-size: 2rem;
+  margin: 1.25rem 0;
+}
+
+.homepage h2 {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.homepage__link_circles {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 2rem;
+  align-self: stretch;
+}
+
+.homepage__link_circle_wrapper.left_circle {
+  align-self: flex-start;
+  order: 1;
+}
+
+.homepage__link_circle_wrapper.middle_circle {
+  order: 3;
+}
+
+.homepage__link_circle_wrapper.right_circle {
+  align-self: flex-end;
+  order: 2;
+}
+
+.homepage__link_circle {
+  border-radius: 50%;
+  font-size: 1rem;
+  color: #1e1e1e;
+  text-decoration: none;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.homepage__link_circle.about_me {
+  background-color: #00ffff;
+  height: 30vw;
+  width: 30vw;
+  max-height: 9rem;
+  max-width: 9rem;
+}
+
+.homepage__link_circle.my_projects {
+  background-color: #ebeb00;
+  height: 35vw;
+  width: 35vw;
+  max-height: 10rem;
+  max-width: 10rem;
+}
+
+.homepage__link_circle.contact {
+  background-color: #ff00ff;
+  height: 25vw;
+  width: 25vw;
+  max-height: 8rem;
+  max-width: 8rem;
+}
+
+@media (min-width: 684px) {
+  .homepage__link_circles {
+    flex-direction: row;
+    flex-grow: 1;
+  }
+
+  .homepage__link_circle_wrapper.middle_circle {
+    order: 2;
+    align-self: flex-end;
+  }
+
+  .homepage__link_circle_wrapper.right_circle {
+    order: 3;
+    align-self: center;
+  }
+
+  .homepage__link_circle.about_me:hover {
+    background-color: transparent;
+    animation: bubbles_blue 0.3s linear forwards;
+  }
+
+  .homepage__link_circle.my_projects:hover {
+    background-color: transparent;
+    animation: bubbles_yellow 0.3s linear forwards;
+  }
+
+  .homepage__link_circle.contact:hover {
+    background-color: transparent;
+    animation: bubbles_pink 0.3s linear forwards;
+  }
+}
+
+@keyframes drop {
+  from {
+    transform: translateY(-400%);
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes bubbles_blue {
+  from {
+    border: 0.75rem solid #00ffff;
+  }
+  to {
+    border: 0.25rem solid #00ffff;
+    color: #00ffff;
+    font-weight: 700;
+    font-size: 1.25rem;
+  }
+}
+
+@keyframes bubbles_yellow {
+  from {
+    border: 0.75rem solid #ebeb00;
+  }
+  to {
+    border: 0.25rem solid #ebeb00;
+    color: #ebeb00;
+    font-weight: 700;
+    font-size: 1.25rem;
+  }
+}
+
+@keyframes bubbles_pink {
+  from {
+    border: 0.75rem solid #ff00ff;
+  }
+  to {
+    border: 0.25rem solid #ff00ff;
+    color: #ff00ff;
+    font-weight: 700;
+    font-size: 1.25rem;
+  }
+}
