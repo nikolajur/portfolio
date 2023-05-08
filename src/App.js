@@ -8,7 +8,7 @@ import "./App.css";
 function App() {
   return (
     <div className="root-layout">
-      <BrowserRouter>
+      <BrowserRouter basename="/portfolio">
         <Navigation />
         <main className="main-content">
           {/*  <LocationProvider> */}
