@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { routeVariants } from "../variants/animation-variants";
 
 import imageCountriesGame from "../assets/countries-thumbnail.png";
+import imagePortfolio from "../assets/portfollio-thumbnail.png";
 
 const ProjectsPage = () => {
   return (
@@ -14,7 +15,6 @@ const ProjectsPage = () => {
       animate="visible"
       exit="exit"
     >
-      {/* <h1>My Projects</h1> */}
       <Project
         title=" European Countries"
         subtitle="Geography game in Czech"
@@ -35,6 +35,16 @@ const ProjectsPage = () => {
           "node-postgres"
         ]}
         github="https://github.com/nikolajur/european-countries"
+      />
+      <hr className="horizontal-line yellow" />
+      <Project
+        title=" Portfolio Page"
+        /*  subtitle="Geography game in Czech" */
+        link="https://nikolajur.github.io/"
+        image={imagePortfolio}
+        description="Personal portfolio page."
+        tags={["HTML", "CSS", "JS", "React", "React Router", "Framer Motion"]}
+        github="https://github.com/nikolajur/portfolio"
       />
     </motion.div>
   );

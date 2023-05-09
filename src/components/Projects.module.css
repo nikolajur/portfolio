@@ -23,10 +23,11 @@
 
 .projects__item_image {
   margin-bottom: 0.75rem;
+  max-width: 15rem;
 }
 
 .projects__item_image img {
-  max-width: 15rem;
+  max-width: 100%;
 }
 
 .projects__item_description_tags {
@@ -64,7 +65,9 @@
   }
   .projects__item_image {
     margin-bottom: 0;
+    flex-shrink: 0;
   }
+
   .projects__item_image img:hover {
     border: 1px solid #f5f57a;
   }

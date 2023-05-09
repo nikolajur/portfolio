@@ -42,6 +42,10 @@ body {
   border-color: #80ffff;
 }
 
+.horizontal-line.yellow {
+  border-color: #f5f57a;
+}
+
 footer {
   color: #f0f0f0;
   align-self: center;
