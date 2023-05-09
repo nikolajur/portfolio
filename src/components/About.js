@@ -50,7 +50,6 @@ const AboutMePage = () => {
         >
           here
         </a>
-        .
       </p>
       <hr className="horizontal-line blue" />
       <h1>I'm already familiar with</h1>
@@ -82,7 +81,6 @@ const AboutMePage = () => {
         Besides coding, I love traveling, starring at maps, listening to Latino music, cooking &
         eating spicy food, and spending time outdoors!
       </p>
-      <br />
     </motion.div>
   );
 };
