@@ -80,6 +80,9 @@
 }
 
 @media (min-width: 684px) {
+  .homepage {
+    flex-grow: 1;
+  }
   .homepage__link_circles {
     flex-direction: row;
     flex-grow: 1;
