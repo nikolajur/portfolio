@@ -5,6 +5,7 @@ import { routeVariants } from "../variants/animation-variants";
 
 import imageCountriesGame from "../assets/countries-thumbnail.png";
 import imagePortfolio from "../assets/portfollio-thumbnail.png";
+import imageWeatherApp from "../assets/weather-thumbnail.png";
 
 const ProjectsPage = () => {
   return (
@@ -16,7 +17,7 @@ const ProjectsPage = () => {
       exit="exit"
     >
       <Project
-        title=" European Countries"
+        title="European Countries"
         subtitle="Geography game in Czech"
         link="https://staty-evropy.onrender.com/"
         image={imageCountriesGame}
@@ -38,13 +39,21 @@ const ProjectsPage = () => {
       />
       <hr className="horizontal-line yellow" />
       <Project
-        title=" Portfolio Page"
-        /*  subtitle="Geography game in Czech" */
+        title="Portfolio Page"
         link="https://nikolajur.github.io/"
         image={imagePortfolio}
         description="Personal portfolio page."
         tags={["HTML", "CSS", "JS", "React", "React Router", "Framer Motion"]}
         github="https://github.com/nikolajur/portfolio"
+      />
+      <hr className="horizontal-line yellow" />
+      <Project
+        title="Weather Info App"
+        link="https://weather-info-app-nj.onrender.com/"
+        image={imageWeatherApp}
+        description="Info on current weather and weather forecast. Based on OpenWeather & Open-Meteo APIs."
+        tags={["HTML", "CSS", "JS", "React", "Leaflet", "Framer Motion"]}
+        github="https://github.com/nikolajur/weather-info-app"
       />
     </motion.div>
   );
